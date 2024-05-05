@@ -1,0 +1,68 @@
+{
+  "database": [
+    {
+      "id": 1,
+      "message": "BIENVENID@ A CHATBOT!. Tomare tus datos y esta experiencia durará menos de 1 minuto.",
+      "options": [
+        {
+          "value": 1,
+          "label": "Devolución",
+          "next": 2
+        },
+        {
+          "value": 2,
+          "label": "Cambio",
+          "next": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "message": "Genial. ¿Como quieres la devolución?",
+      "options": [
+        {
+          "value": 1,
+          "label": "Por Cupon",
+          "next": 5
+        },
+        {
+          "value": 2,
+          "label": "Por Cuenta Bancaria",
+          "next": 6
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "message": "Genial, ¿Es cambio de la misma prenda?",
+      "options": [
+        {
+          "value": 1,
+          "label": "Misma prenda",
+          "next": 7
+        },
+        {
+          "value": 2,
+          "label": "Diferente",
+          "next": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "message": "Perfecto, en unos minutos el cupón te llegará al correo."
+    },
+    {
+      "id": 6,
+      "message": "Perfecto, te llegará en 3 dias hábiles."
+    },
+    {
+      "id": 7,
+      "message": "Perfecto, acércate a la tienda donde realizaste la compra. La prenda estará disponible en 3 días."
+    },
+    {
+      "id": 8,
+      "message": "Perfecto, acercate a la tienda más cercana cuando quieras y al terminar, el personal en caja te hará el cambio entre prendas."
+    }
+  ]
+}
